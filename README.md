@@ -119,14 +119,14 @@
 
 ```bash
 # Клонируем репозиторий
-git clone <repo-url>
+git clone https://github.com/eperfilev00-hash/IDK
 cd IDK
 
 # Копируем .env
 cp .env.example .env
 
-# Поднимаем всё через docker-compose
-docker-compose up --buildIDK/
+# Поднимаем всё через Docker
+docker compose up --build
 
 ```
 ## Структура
